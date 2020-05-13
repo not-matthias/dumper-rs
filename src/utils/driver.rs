@@ -59,7 +59,10 @@ pub fn get_base<T: AsRef<str>>(driver: T) -> Option<usize> {
 
         // Check if the name matches
         //
-        if image_name.contains(driver.as_ref()) {
+        if image_name
+            .to_lowercase()
+            .contains(&driver.as_ref().to_lowercase())
+        {
             return Some(unsafe { (*module).ImageBase as _ });
         }
     }
