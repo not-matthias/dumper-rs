@@ -60,7 +60,7 @@ dependencies = [
 [[package]]
 name = "context"
 version = "0.1.0"
-source = "git+https://github.com/not-matthias/driver-rs#ae10f0bec63fde3a9723504291b52a863d4289b3"
+source = "git+https://github.com/not-matthias/driver-rs#66fa32e331718cc83a798872b34e1136488f653a"
 dependencies = [
  "ioctl",
  "lazy_static",
@@ -200,7 +200,7 @@ dependencies = [
 [[package]]
 name = "ioctl"
 version = "0.1.0"
-source = "git+https://github.com/not-matthias/driver-rs#ae10f0bec63fde3a9723504291b52a863d4289b3"
+source = "git+https://github.com/not-matthias/driver-rs#66fa32e331718cc83a798872b34e1136488f653a"
 
 [[package]]
 name = "kernel32-sys"
