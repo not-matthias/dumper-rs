@@ -8,7 +8,7 @@ edition = "2018"
 
 [dependencies]
 core = { git = "https://github.com/not-matthias/cheat-utils" }
-context = { git = "https://github.com/not-matthias/driver-rs", features = ["ioctl-context"] }
+context = { git = "https://github.com/not-matthias/cheat-utils", features = ["ioctl-context"] }
 pelite = "0.8.1"
 winapi = { version = "0.3.8", features = ["winnt", "fileapi", "memoryapi", "errhandlingapi"] }
 ntapi = "0.3.4"
