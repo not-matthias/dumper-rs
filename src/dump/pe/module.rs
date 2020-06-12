@@ -153,15 +153,6 @@ impl Module {
         for section in self.sections.iter_mut() {
             let section: &mut Section = section;
 
-            // Skip discardable sections
-            //
-            // if (section.header.Characteristics & IMAGE_SCN_MEM_DISCARDABLE) != 0 {
-            //     println!("Skipping discardable section.");
-            //
-            //     section.content = vec![0u8; section_size];
-            //     continue;
-            // }
-
             // Read the section content
             //
             let address = self.base_address + section.header.VirtualAddress as usize;
@@ -199,9 +190,6 @@ impl Module {
         //     current_read_size += MAX_READ_SIZE;
         //     current_offset += current_read_size;
         // }
-
-        let _ = read;
-        let _ = address;
 
         size
     }
