@@ -30,7 +30,7 @@ dependencies = [
 [[package]]
 name = "context"
 version = "0.1.0"
-source = "git+https://github.com/not-matthias/cheat-utils#139795457a27d7988fa10e64799840034ef98e40"
+source = "git+https://github.com/not-matthias/cheat-utils#b93e4f294b79bdfd823096c96af5e461fa2b0388"
 dependencies = [
  "ioctl",
  "lazy_static",
@@ -61,7 +61,7 @@ checksum = "a06f77d526c1a601b7c4cdd98f54b5eaabffc14d5f2f0296febdc7f357c6d3ba"
 [[package]]
 name = "ioctl"
 version = "0.1.0"
-source = "git+https://github.com/not-matthias/driver-rs#ad1e32b6fe48120adb7b8bfa906ad7ff38e460ad"
+source = "git+https://github.com/not-matthias/driver-rs#5448451dce644ab91c802515c1a91726f5245792"
 
 [[package]]
 name = "lazy_static"
@@ -114,7 +114,7 @@ dependencies = [
 [[package]]
 name = "parameter"
 version = "0.1.0"
-source = "git+https://github.com/not-matthias/driver-rs#ad1e32b6fe48120adb7b8bfa906ad7ff38e460ad"
+source = "git+https://github.com/not-matthias/driver-rs#5448451dce644ab91c802515c1a91726f5245792"
 
 [[package]]
 name = "pelite"
@@ -273,7 +273,7 @@ checksum = "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f"
 [[package]]
 name = "windows"
 version = "0.1.0"
-source = "git+https://github.com/not-matthias/cheat-utils#139795457a27d7988fa10e64799840034ef98e40"
+source = "git+https://github.com/not-matthias/cheat-utils#b93e4f294b79bdfd823096c96af5e461fa2b0388"
 dependencies = [
  "ntapi",
  "winapi",
