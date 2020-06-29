@@ -30,7 +30,7 @@ dependencies = [
 [[package]]
 name = "context"
 version = "0.1.0"
-source = "git+https://github.com/not-matthias/cheat-utils#9ff8bb24bdf0f5318cfb77a0ed1d53684871e0d3"
+source = "git+https://github.com/not-matthias/cheat-utils#84ea848b172042c22f547815ea41a8815e39f579"
 dependencies = [
  "ioctl",
  "lazy_static",
@@ -273,7 +273,7 @@ checksum = "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f"
 [[package]]
 name = "windows"
 version = "0.1.0"
-source = "git+https://github.com/not-matthias/cheat-utils#9ff8bb24bdf0f5318cfb77a0ed1d53684871e0d3"
+source = "git+https://github.com/not-matthias/cheat-utils#84ea848b172042c22f547815ea41a8815e39f579"
 dependencies = [
  "ntapi",
  "winapi",
