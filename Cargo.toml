@@ -11,6 +11,6 @@ windows = { git = "https://github.com/not-matthias/cheat-utils" }
 context = { git = "https://github.com/not-matthias/cheat-utils", features = ["ioctl-context"] }
 
 pelite = "0.8.1"
-winapi = { version = "0.3.8", features = ["winnt", "fileapi", "memoryapi", "errhandlingapi"] }
+winapi = { version = "0.3.9", features = ["winnt", "fileapi", "memoryapi", "errhandlingapi"] }
 ntapi = "0.3.4"
 memoffset = "0.5.4"
